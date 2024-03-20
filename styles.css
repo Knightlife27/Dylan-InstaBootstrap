@@ -1,83 +1,26 @@
-img {
-    width: 300px;
-    height: 300px;
-}
-
-.container {
-    position: relative;
-    left: 200px;
-    top: 150px;
-}
 
 #ig {
     height: 25px;
     width: 25px;
 }
 
-.nav-item {
-    position: relative;
-    left: 820px;
-    top: 25px;
+.square-image {
+    aspect-ratio: 1 / 1;
 }
 
-#scroll-view {
-    position: relative;
-    left: 50px;
-    top: 100px;
-    height: 480px;
-    width: 500px;
-}
-
-.tab-content shadow {
-    width: 500px;
-}
-
-#scroll-image {
-    position: relative;
-
-    width: 475px;
-}
+.row .col-sm-4 {
+    /* Override the default min-width for smaller screens */
+    @media (min-width: 50px) {
+    }
+  }
 
 h4 {
     position: relative;
-    top: 10px;
-    width: 400px;
-    left: 10px;
+    right: 9%;
+    top: 7%;
 }
 
-p {
+date {
     position: relative;
-    left: 10px;
-}
-
-strong {
-    position: relative;
-    top: 5px;
-    left: 10px;
-}
-
-.content-title {
-    display: flex;
-    align-items: center;
-    height: 70px;
-}
-
-#date {
-    position: relative;
-    left: 30px;
-}
-
-#second-post {
-    position: relative;
-    top: 30px;
-}
-
-#create-post {
-    position:relative;
-    left: 1340px;
-}
-
-#settings {
-    position: relative;
-    left: 1350px;
+    
 }

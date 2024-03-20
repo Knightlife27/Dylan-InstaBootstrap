@@ -11,29 +11,25 @@
 
   <body>
 
-    <style>
-      /* Override Bootstrap's justify-content: space-between; */
-      .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
-          justify-content: flex-start; /* Change to your desired justification */
-      }
-  </style>
+    
 
 
 
 
   <!-- NAV BAR-->
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
+    <nav class="navbar bg-body-tertiary container">
           <a class="navbar-brand" href="#">
-            <img id="ig" src="https://www.svgrepo.com/show/521711/instagram.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            Instagram
+                <img id="ig" src="https://www.svgrepo.com/show/521711/instagram.svg" alt="Logo" width="30" height="24" class="d-inline-block">
+                Instagram
+            </div>
           </a>
 
 
             <!--TESTING ZONE-->
 
          <!-- Button trigger modal -->
-              <button id="create-post" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              
+              <button id="create-post" type="button" class="btn btn-primary ms-auto me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Create a new post
               </button>
 
@@ -73,15 +69,13 @@
               </ul>
             </div>
 
-
-            <!--TESTING ZONE-->
-        </div>
+        
       </nav>
 
 
 
   <!-- NAV PILLS-->
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills justify-content-center my-3">
         <li class="nav-item">
           <a class="nav-link active" id="main-tab" data-bs-toggle="pill" href="#main-content">
             <img id="ig" src="https://www.svgrepo.com/show/502689/grid.svg">
@@ -103,41 +97,41 @@
       <div class="tab-pane fade show active" id="main-content">
       
 
-        <div class="row">
-            <div class="col-lg-auto mt-1 mx-1 p-0">
-                <img src="https://cdn.pixabay.com/photo/2016/06/28/01/42/chess-1483735_640.jpg">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-4 col-md-3 col-lg-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://cdn.pixabay.com/photo/2016/06/28/01/42/chess-1483735_640.jpg">
             </div>
-            <div class="col-lg-auto mt-1 mx-1 p-0">
-              <img src="https://media.istockphoto.com/id/467497162/photo/camara-de-lobos-madeira.jpg?s=612x612&w=0&k=20&c=Tl8vGDH8qRfB9xKnQ_tZQFA5DHRtwvPpBhe8W4XzsEY=">
+            <div class="col-sm-4 col-md-3 col-lg-3 mx-2 p-0">
+              <img class="img-fluid square-image" src="https://media.istockphoto.com/id/467497162/photo/camara-de-lobos-madeira.jpg?s=612x612&w=0&k=20&c=Tl8vGDH8qRfB9xKnQ_tZQFA5DHRtwvPpBhe8W4XzsEY=">
             </div>
-            <div class="col-lg-auto mt-1 mx-1 p-0">
-                <img src="https://t3.ftcdn.net/jpg/03/55/28/80/360_F_355288042_An4jhyVFELBAY05m97yMQYDTDpNKeeJf.jpg">
+            <div class="col-sm-4 col-md-3 col-lg-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://t3.ftcdn.net/jpg/03/55/28/80/360_F_355288042_An4jhyVFELBAY05m97yMQYDTDpNKeeJf.jpg">
             </div>
             </div>
 
 
-        <div class="row">
-            <div class="col-lg-auto mt-2 mx-1 p-0">
-                <img src="https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-4 col-md-3 col-lg-3 mt-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*">
             </div>
-            <div class="col-lg-auto mt-2 mx-1 p-0">
-                <img src="https://t4.ftcdn.net/jpg/01/14/69/25/360_F_114692553_AlsqALliXH8n9fa7picIvlPCxRBa78K7.jpg">
+            <div class="col-sm-4 col-md-3 col-lg-3 mt-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://t4.ftcdn.net/jpg/01/14/69/25/360_F_114692553_AlsqALliXH8n9fa7picIvlPCxRBa78K7.jpg">
             </div>
-            <div class="col-lg-auto mt-2 mx-1 p-0">
-                <img src="https://images.pexels.com/photos/1543932/pexels-photo-1543932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <div class="col-sm-4 col-md-3 col-lg-3 mt-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://images.pexels.com/photos/1543932/pexels-photo-1543932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
             </div>
         </div>
 
 
-        <div class="row">
-            <div class="col-lg-auto mt-2 mx-1 p-0">
-                <img src="https://liverpoolacademyofmusic.com.au/wp-content/uploads/2016/03/guitar.jpg">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-4 col-md-3 col-lg-3 mt-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?cs=srgb&dl=pexels-north-1407322.jpg&fm=jpg">
             </div>
-            <div class="col-lg-auto mt-2 mx-1 p-0">
-                <img src="https://wallpapers.com/images/featured/game-of-thrones-pictures-ad9d02jxoawpkpqg.jpg">
+            <div class="col-sm-4 col-md-3 col-lg-3 mt-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://wallpapers.com/images/featured/game-of-thrones-pictures-ad9d02jxoawpkpqg.jpg">
             </div>
-            <div class="col-lg-auto mt-2 mx-1 p-0">
-                <img src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg">
+            <div class="col-sm-4 col-md-3 col-lg-3 mt-3 mx-2 p-0">
+                <img class="img-fluid square-image" src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg">
             </div>
         </div>
       
@@ -154,52 +148,54 @@
       <div class="tab-content">
         <div class="tab-pane fade" id="new-content">
 
-          
-          <div class="shadow">
-              <div class="content-title">
-                <h4>Snowboarding In Tahoe</h4>
-                <p id="date">01/27</p>
+          <div class="row d-flex justify-content-center mb-5">
+          <div class="col-sm-4 col-md-3 col-lg-6 mx-2 p-0 shadow">
+              <div class="row d-flex justify-content-end">
+                <div class="col-6 d-flex"> <h4 class="coastline">Coastline</h4> </div>
+                <div class="col-2 offset-3 d-flex ml-25%"> <p id="date">01/27</p> </div>
               </div>
               <div>
-                  <img id="scroll-image" src="https://www.themanual.com/wp-content/uploads/sites/9/2023/04/snowboarder-with-orange-board.jpg?fit=3000%2C2000&p=1">
+                  <img class="img-fluid square-image" id="scroll-image" src="https://images.unsplash.com/photo-1709223328664-f3c5f94a8e70?q=80&w=2038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
               </div>
               <div>
                   <strong>204 likes</strong>
-                  <p>This was our trip up to Tahoe for my Birthday! Great snow and great time with friends!</p>
+                  <p>Beautiful San Diego Coastline</p>
               </div>
           </div>
+        </div>
 
 
-
-            <div class="shadow" id="second-post">
-              <div class="content-title">
-                <h4>Fruit</h4>
-                <p id="date">02/14</p>
+        <div class="row d-flex justify-content-center mb-5">
+            <div class="col-sm-4 col-md-3 col-lg-6 mx-2 p-0 shadow" id="second-post">
+              <div class="row d-flex justify-content-end">
+                <div class="col-6 d-flex"> <h4>Kelsey's Design</h4> </div>
+                <div class="col-2 offset-3 d-flex ml-25%"> <p id="date">01/27</p> </div>
               </div>
               <div>
-                  <img id="scroll-image" src="https://media.istockphoto.com/id/995518546/photo/assortment-of-colorful-ripe-tropical-fruits-top-view.webp?b=1&s=170667a&w=0&k=20&c=frnzxYjtn8MP9kpLy7AY2DU_s9ohVBlAflpUacaDx7w=">
+                  <img class="img-fluid square-image" id="scroll-image" src="https://plus.unsplash.com/premium_photo-1699560434018-df96100f74b9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
               </div>
               <div>
                   <strong>127 likes</strong>
-                  <p>Kelsey and I built a fruit board for the superbowl, and here's how it turned out!</p>
+                  <p>Kelsey and I built a design we'd like you to check out!</p>
               </div>
           </div>
+        </div>
 
-
-            <div class="shadow" id="second-post">
-              <div class="content-title">
-                <h4>Coachella</h4>
-                <p id="date">03/22</p>
+        <div class="row d-flex justify-content-center mb-5">
+            <div class="col-sm-4 col-md-3 col-lg-6 mx-2 p-0 shadow" id="second-post">
+              <div class="row d-flex justify-content-end">
+                <div class="col-6 d-flex"> <h4>Jamaican Coast</h4> </div>
+                <div class="col-2 offset-3 d-flex ml-25%"> <p id="date">02/22</p> </div>
               </div>
               <div>
-                  <img id="scroll-image" src="https://d39l2hkdp2esp1.cloudfront.net/img/photo/141833/141833_00_2x.jpg?20180321155613">
+                  <img class="img-fluid square-image" id="scroll-image" src="https://images.unsplash.com/photo-1682687981630-cefe9cd73072?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
               </div>
               <div>
                   <strong>479 likes</strong>
-                  <p>Great time after the Galantis concert with close friends!</p>
+                  <p>We spent the last week off the Jamaican coast exploring the beaches and waters</p>
               </div>
           </div>
-
+        </div>
 
 
         </div>
